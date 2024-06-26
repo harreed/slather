@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'slather/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'slather'
+  spec.name          = 'slather-harreed'
   spec.version       = Slather::VERSION
   spec.authors       = ['Mark Larsen']
   spec.email         = ['mark@venmo.com']
@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'equivalent-xml', '~> 0.6'
 
   spec.add_dependency 'clamp', '~> 1.3'
-  spec.add_dependency 'xcodeproj', '~> 1.21'
+  spec.add_dependency 'xcodeproj', '~> 1.21.0'
   spec.add_dependency 'nokogiri', '>= 1.14.3'
   spec.add_dependency 'CFPropertyList', '>= 2.2', '< 4'
 
